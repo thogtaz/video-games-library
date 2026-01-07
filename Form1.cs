@@ -30,9 +30,9 @@ namespace GameLibrary
             }
 
             // Validation de l'année
-            if (!int.TryParse(TxtAnnee.Text, out int annee) || annee < 1970 || annee > DateTime.Now.Year + 5)
+            if (!int.TryParse(TxtAnnee.Text, out int annee) || annee < 1970 || annee > DateTime.Now.Year + 0)
             {
-                MessageBox.Show("Veuillez entrer une année valide (1970 - " + (DateTime.Now.Year + 5) + ").", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Veuillez entrer une année valide (1970 - " + (DateTime.Now.Year + 0) + ").", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -72,7 +72,7 @@ namespace GameLibrary
             }
 
             // Validation de l'année
-            if (!int.TryParse(TxtAnnee.Text, out int annee) || annee < 1970 || annee > DateTime.Now.Year + 5)
+            if (!int.TryParse(TxtAnnee.Text, out int annee) || annee < 1970 || annee > DateTime.Now.Year + 0)
             {
                 MessageBox.Show("Veuillez entrer une année valide.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
