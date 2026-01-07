@@ -101,22 +101,22 @@ namespace GameLibrary
             // colGenre
             // 
             colGenre.Text = "Genre";
-            colGenre.Width = 110;
+            colGenre.Width = 130;
             // 
             // colAnnee
             // 
             colAnnee.Text = "Année";
-            colAnnee.Width = 80;
+            colAnnee.Width = 130;
             // 
             // colMultijoueur
             // 
             colMultijoueur.Text = "Multijoueur";
-            colMultijoueur.Width = 100;
+            colMultijoueur.Width = 130;
             // 
             // colFormat
             // 
             colFormat.Text = "Format";
-            colFormat.Width = 100;
+            colFormat.Width = 130;
             // 
             // BtnSupprimer
             // 
@@ -181,7 +181,7 @@ namespace GameLibrary
             CmbPlateforme.Items.AddRange(new object[] { "PC", "PlayStation 5", "PlayStation 4", "Xbox Series X", "Xbox One", "Nintendo Switch", "Nintendo 3DS", "Mobile", "Autre" });
             CmbPlateforme.Location = new Point(130, 97);
             CmbPlateforme.Name = "CmbPlateforme";
-            CmbPlateforme.Size = new Size(180, 33);
+            CmbPlateforme.Size = new Size(220, 33);
             CmbPlateforme.TabIndex = 3;
             // 
             // CmbGenre
