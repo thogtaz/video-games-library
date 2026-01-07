@@ -1,4 +1,4 @@
-namespace video_games_library
+namespace GameLibrary
 {
     internal static class Program
     {
@@ -8,8 +8,6 @@ namespace video_games_library
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
